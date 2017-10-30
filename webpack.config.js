@@ -1,9 +1,11 @@
 var path = require('path');
 var webpack = require('webpack');
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
   devtool: 'eval',
-  entry: [
+  entry: isProduction ? './src/index.jsx' : [
     'webpack-dev-server/client?http://localhost:3000',
     './src/index.jsx'
   ],

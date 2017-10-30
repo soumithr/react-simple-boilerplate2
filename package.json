@@ -12,6 +12,10 @@
     "edit",
     "webpack"
   ],
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack",
+    "prod:start": "NODE_ENV=production node server.js"
+  },
   "author": "Noah-Jerome Lotzer <noah.lotzer@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -27,6 +31,7 @@
     "css-loader": "^0.28.0",
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^6.10.3",
+    "express": "^4.16.2",
     "node-sass": "^4.5.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
