@@ -2,11 +2,7 @@
   "name": "react-simple-boilerplate",
   "version": "1.0.0",
   "description": "Simple and lightweight Boilerplate for ReactJS projects",
-  "scripts": {
-    "lint": "eslint src",
-    "start": "node server.js"
-  },
-  "repository": "https://github.com/noahlotzer/react-simple-boilerplate.git",
+  "repository": "https://github.com/soumithr/react-simple-boilerplate2",
   "keywords": [
     "react",
     "reactjs",
@@ -38,9 +34,12 @@
     "webpack-dev-server": "^2.4.4"
   },
   "dependencies": {
+    "axios": "^0.17.0",
     "babel-loader": "^7.0.0",
+    "nodemailer": "*",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "sendmail": "^1.2.0"
   },
   "main": "server.js"
 }
